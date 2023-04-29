@@ -1,3 +1,3 @@
-#Git exersise
+# Git exersise
 
-Lorem
+Repository created to train console comands
