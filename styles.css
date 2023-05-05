@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(90deg, #fff, #000);
+}
+
+h1 {
+  visibility: hidden;
+}

@@ -1,17 +1,22 @@
 // Creating function
 
-// New
+// New "New" keyword
 
 const person = new Object();
 
 person.firstName = "First Name";
 person.secondName = "Second Name";
 
-console.log(person);
+// console.log(person);
 
-function Test(first, second) {
-  this.prop1 = first;
-  this.prop2 = second;
+// Creating function
+
+function Person(fname, lname) {
+  this.firstName = fname;
+  this.lastName = lname;
 }
 
-console.log(Test());
+const personOne = new Person("testFirstNameOne", "testLastNameOne");
+const personTwo = new Person("testFirstNameTwo", "testLastNameTwo");
+
+console.log(new Person(personOne));
