@@ -16,7 +16,8 @@ function Person(fname, lname) {
   this.lastName = lname;
 }
 
-const personOne = new Person("testFirstNameOne", "testLastNameOne");
-const personTwo = new Person("testFirstNameTwo", "testLastNameTwo");
+const personOne = new Person("John", "Dou");
+const personTwo = new Person("Sam", "Brown");
+const personThree = new Person("Alice", "Smith");
 
-console.log(new Person(personOne));
+console.log(new Person());
